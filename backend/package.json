@@ -1,0 +1,47 @@
+{
+  "name": "extracto-backend",
+  "version": "1.0.0",
+  "description": "AI-powered meeting transcript summarization and email sharing service",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ai",
+    "summarization",
+    "openai",
+    "email",
+    "transcript",
+    "meeting",
+    "express"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.3.1",
+    "groq-sdk": "^0.7.0",
+    "nodemailer": "^6.9.13"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/extracto-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/extracto-backend/issues"
+  },
+  "homepage": "https://github.com/yourusername/extracto-backend#readme"
+}
